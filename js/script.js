@@ -59,7 +59,7 @@ messages.push(scoreMessage);
 
 let img= new Image();
 img.addEventListener(' load', loadHandler, false);
-img.src= "/batalha-espacial/image/img.png";
+img.src= "/image/img.png";
 assetsToload.push(img);
 
 //contador de recursos
@@ -355,9 +355,9 @@ function endGame(){
 function playSound(soundType){
     let sound = document.createElement("audio");
     if(soundType === EXPLOSION){
-        sound.src ="/batalha-espacial/sound/explosion.mp3"
+        sound.src ="/sound/explosion.mp3"
     }else{
-        sound.src="/batalha-espacial/sound/plama-shot.wav"
+        sound.src="/sound/plama-shot.wav"
     }
     sound.addEventListener("canplaythrough", function(){
         sound.play();
