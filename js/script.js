@@ -58,7 +58,7 @@ messages.push(scoreMessage)
 
 const img = new Image()
 img.addEventListener(' load', loadHandler, false)
-img.src = '/image/img.png'
+img.src = 'img.png'
 assetsToload.push(img)
 
 // contador de recursos
@@ -351,9 +351,9 @@ function endGame () {
 function playSound (soundType) {
   const sound = document.createElement('audio')
   if (soundType === EXPLOSION) {
-    sound.src = '/sound/explosion.mp3'
+    sound.src = './sound/explosion.mp3'
   } else {
-    sound.src = '/sound/plama-shot.wav'
+    sound.src = './sound/plama-shot.wav'
   }
   sound.addEventListener('canplaythrough', function () {
     sound.play()

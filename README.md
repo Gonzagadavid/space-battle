@@ -8,7 +8,7 @@
 
 
 
-1.  **Abrir somente a pasta do jogo no editor de texto e em seguida abrir o arquivo index.html no browser através do editor de texto;**
+1.  **Abrir  o arquivo index.html no browser ;**
 
 2. **Aperte tecla "enter"  para começar o jogo;**
 
