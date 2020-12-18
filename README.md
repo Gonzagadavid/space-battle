@@ -4,7 +4,9 @@
 
 
 
-#### projeto de jogo  em  JavaScript e HTML, feito através do tutorial encontrado no canal do youtube  do desenvolvedor Gustavo Silveira 
+#### projeto de jogo  em  JavaScript e HTML, feito através do tutorial encontrado no canal do youtube  do desenvolvedor Gustavo Silveira.
+Por ser um tutorial de 2016 foi necessário modificar o modo de reprodução da música do jogo, de autoplay para a criação de um elemento de audio no DOM após a interação do usuário,
+conforme a nova poltica de reprodução automática de músicas e vídeos lançada em 2018 na M66 Stable
 
 
 
