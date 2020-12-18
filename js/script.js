@@ -111,19 +111,21 @@ window.addEventListener('keyup', e => {
       mvRight = false
       break
     case ENTER:
-      const music = document.createElement('audio')
-      music.src = './sound/POL-the-foyer-short.ogg'
-      document.body.appendChild(music)
-      music.autoplay = true
-      music.loop = true
       if (gameState !== OVER) {
-        if (gameState !== PLAYING) {
+        if (gameState !== PLAYING) { 
+          const music = document.createElement('audio')
+          music.id = 'music'
+          music.src = './sound/POL-the-foyer-short.ogg'
+          document.body.appendChild(music)
+          music.autoplay = true
+          music.loop = true
           gameState = PLAYING
           startMessage.visible = false
           pausedMessage.visible = false
         } else {
           gameState = PAUSED
           pausedMessage.visible = true
+          document.body.removeChild(document.getElementById('music'))
         }
       }
       break
