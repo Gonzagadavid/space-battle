@@ -2,7 +2,7 @@
 
 ## proteja a Terra de invasores espaciais
 
-
+# ![https://gonzagadavid.github.io/space-battle/](#JOGAR)
 
 #### projeto de jogo  em  JavaScript e HTML, feito através do tutorial encontrado no canal do youtube  do desenvolvedor Gustavo Silveira.
 Por ser um tutorial de 2016 foi necessário modificar o modo de reprodução da música do jogo, de autoplay para a criação de um elemento de audio no DOM após a interação do usuário,
